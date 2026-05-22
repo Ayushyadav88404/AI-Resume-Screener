@@ -90,8 +90,6 @@ Automate recruitment by parsing, analyzing, and ranking resumes based on job des
 
 ```bash
 cd backend
-python -m venv venv
-venv\Scripts\activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python -m uvicorn app.main:app --reload
